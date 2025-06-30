@@ -4,7 +4,7 @@ This project is a fully deployed, scalable web application running on Amazon EC2
 
 It demonstrates how to provision AWS infrastructure, configure security groups, connect cloud services, and deploy a real-world app — all within the AWS Free Tier.
 
-Features
+Features:
 
 Node.js + Express server hosted on EC2
 
@@ -18,7 +18,7 @@ Screenshots to verify live deployment
 
 Designed to be free-tier eligible and cost-safe
 
-Project Structure
+Project Structure:
 
 aws-scalable-webapp/
 ├── index.js
@@ -28,7 +28,7 @@ aws-scalable-webapp/
 ├── screenshots/
 └── README.txt
 
-Technologies Used
+Technologies Used:
 
 Node.js / Express
 
@@ -40,18 +40,17 @@ Security Groups / Inbound Rules
 
 Git + GitHub for version control
 
-Screenshots
+Screenshots(included in screenshots folder):
 
 Web App Running
-(Include screenshot: browser showing app running)
 
 EC2 Terminal Output
-(Include screenshot: terminal with server running)
 
 RDS Dashboard
-(Include screenshot: AWS RDS console showing database)
 
-Architecture
+EC2 Dashboard
+
+Architecture:
 
 [ Browser ]
 ↓
@@ -59,14 +58,14 @@ Architecture
 ↓
 [ Amazon RDS (MySQL DB) ]
 
-Getting Started
+Getting Started:
 
 Clone the repository
 
 git clone https://github.com/yourusername/aws-scalable-webapp.git
 cd aws-scalable-webapp
 
-Install dependencies
+Install dependencies:
 
 npm install
 
@@ -78,13 +77,13 @@ DB_USER=your-username
 DB_PASSWORD=your-password
 DB_NAME=your-database-name
 
-Start the server
+Start the server:
 
 node index.js
 
 Visit http://localhost:3000 in your browser.
 
-AWS Cleanup Instructions
+AWS Cleanup Instructions:
 
 To avoid incurring charges, delete your AWS resources after use:
 
